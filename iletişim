@@ -124,7 +124,7 @@ ul li:hover a span:nth-child(2) {
 	<li>
 		<a href="javascript:void(0);">
 			<span>
-				Anasayfa
+				<a href="Anasayfa">Ansayfat</a>
 			</span>
 			
 			<span>
