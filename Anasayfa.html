@@ -1,84 +1,44 @@
-<!DOCTYPE html>
+<html lang="tr">
 
-<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Web sitesi</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-	
-	 <style>
-ul#yatay-menu {
-list-style: none;
-margin:0;
-padding:0;
-}
-ul#yatay-menu li {
-display: inline-block;
-padding:0 10px;
-border-bottom:2px solid #3DA4AB;
-margin:auto -2px;
-}
-ul#yatay-menu li a {
-color: #F6CD61;
-display: inline-block;
-font: 14px/100% Arial, Helvetica, sans-serif;
-height: 36px;
-line-height: 36px;
-text-decoration: none;
-vertical-align: middle;
-padding: 0 10px;
-background-color:#4A4E4D; 
-}
-ul#yatay-menu li a:hover{
-color: #4A4E4D;
-background-color:#F6CD61; 
-}
- 
-</style>
+        <meta charset="UTF-8">
+		<link rel="stylesheet" href="main.css">
+		<title>Deneme</title>
 </head>
+
+
 <body>
-  <div id="detect"></div>
-  <div class="wrapper">
-    <div class="content">
-      <div class="warn-icon">
-        <span class="icon"><i class="fas fa-exclamation"></i></span>
-      </div>
-      <h2>AdBlock tespit edildi!</h2>
-      <p>Tamamen ücretsiz olan sitemizde adblock korumanızı kapatınız.</p>
-      <div class="btn">
-        <div class="bg-layer"></div>
-        <button>Anladım</button>
-      </div>
-    </div>
-  </div>
 
-  <script>
-    const detect = document.querySelector("#detect");
-    const wrapper = document.querySelector(".wrapper");
-    const button = wrapper.querySelector("button");
 
-    let adClasses = ["ad", "ads", "adsbox", "doubleclick", "ad-placement", "ad-placeholder", "adbadge", "BannerAd"];
-    for(let item of adClasses){
-      detect.classList.add(item);
-    }
-    let getProperty = window.getComputedStyle(detect).getPropertyValue("display");
-    if(!wrapper.classList.contains("show")){
-      getProperty == "none" ? wrapper.classList.add("show") : wrapper.classList.remove("show");
-    }
-    button.addEventListener("click", ()=>{
-      wrapper.classList.remove("show");
-    });
- <ul id="yatay-menu">
-<li><a href="#">Ana Sayfa</a></li>
-<li><a href="#">Web Tasarımı</a></li>
-<li><a href="#">Grafik Animasyon</a></li>
-<li><a href="#">Veritabanı</a></li>
-<li><a href="#">Programlama</a></li>
-</ul>
- 
- 
-
-</body>
-</html>
+          <nav class="navbar">
+		      <div style="width:100%;">
+			 <a href="logo.jpg">
+			       <img class="primary-icon" src="logo.jpg" width="50" height ="50">
+			 </a>
+			 
+			 </div>
+			  
+			  <ul class="nav-list">
+			  
+			    <li class="list-item">
+				    <a href="#">anasayfa</a>
+			    </li>
+				 <li class="list-item">
+				    <a href="#">menü</a>
+			    </li>
+				 <li class="list-item">
+				    <a href ="#">hakkımızda</a>
+			    </li>
+				<li class="list-item">
+				    <a href ="#">destek</a>
+			    </li>
+		  </ul>
+		  <div class="menu">
+		     <div class="menu-line"></div>
+		     <div class="menu-line"></div>
+		     <div class="menu-line"></div>
+		  </div>
+				
+	</nav>
+	</body>
+</html>	
