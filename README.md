@@ -1,1 +1,1 @@
-# https://emirhankyg.github.io/Anasayfa.html
+# https://emirhankyg.github.io/deneme.html
