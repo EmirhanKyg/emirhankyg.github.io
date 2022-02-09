@@ -3,7 +3,7 @@
 
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="tasarims.css">
+<link rel="stylesheet" href="tasarim.css">
 	
    <style>
 	   * {
@@ -230,7 +230,7 @@
 			<!-- Add logo with size of 90*80 -->
 			<img src=
 "logo.jpg"
-			width="90" height="80" alt="">
+			width="110" height="80" alt="">
 		</a>
 		
 		<button class="navbar-toggler" type="button"
@@ -256,14 +256,7 @@
 				</li>	
 				<li class="nav-item">
 					<a class="nav-link" href="deneme1.php">Market Fiyatları</a>
-				<ul>
-                   <li><a href="#">içecekler</a></li>
-				   <li><a href="#">yemekler</a></li>
-				   <li><a href="#">Fiyatlar</a></li>
-
-
-
-				</ul>
+				 
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="#">iletişim</a>
